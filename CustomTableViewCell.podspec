@@ -6,5 +6,6 @@ Pod::Spec.new do |s|
   s.author       = { 'Stefan Kendall' => 'stefankendall@gmail.com' }
   s.homepage     = 'https://github.com/stefankendall/CustomTableViewCell'
   s.source       = { :git => 'https://github.com/stefankendall/CustomTableViewCell.git', :tag => '1' }
-  s.source_files = 'Classes/**/*.{h,m}', 'External/**/*.{h,m}'
+  s.source_files = 'CustomTableViewCell'
+  s.platform     = :ios, '5.0'
 end
