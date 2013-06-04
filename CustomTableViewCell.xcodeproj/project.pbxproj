@@ -20,8 +20,8 @@
 		023E9E3B175E3626003C386D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		023E9E3D175E3627003C386D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		023E9E3F175E3627003C386D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		023E9E58175E3653003C386D /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
-		023E9E59175E3653003C386D /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		023E9E58175E3653003C386D /* CTCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTCustomTableViewCell.h; sourceTree = "<group>"; };
+		023E9E59175E3653003C386D /* CTCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTCustomTableViewCell.m; sourceTree = "<group>"; };
 		54590145647BB94B79CA1C0C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5459026F02BBA59374245F52 /* CustomTableViewCell.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = CustomTableViewCell.podspec; sourceTree = "<group>"; };
 		5459066DBD8D62D27ADC8BE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 		023E9E41175E3627003C386D /* CustomTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				023E9E58175E3653003C386D /* CustomTableViewCell.h */,
-				023E9E59175E3653003C386D /* CustomTableViewCell.m */,
+				023E9E58175E3653003C386D /* CTCustomTableViewCell.h */,
+				023E9E59175E3653003C386D /* CTCustomTableViewCell.m */,
 			);
 			path = CustomTableViewCell;
 			sourceTree = "<group>";

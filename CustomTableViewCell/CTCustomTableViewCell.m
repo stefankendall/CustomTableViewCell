@@ -1,7 +1,7 @@
-#import "CustomTableViewCell.h"
+#import "CTCustomTableViewCell.h"
 
-@implementation CustomTableViewCell
-+ (instancetype)createCell {
+@implementation CTCustomTableViewCell
++ (instancetype)create {
     NSString *cellClassName = NSStringFromClass([self class]);
 
     NSArray *nibContents = [[NSBundle mainBundle] loadNibNamed:cellClassName owner:self options:nil];
@@ -17,6 +17,6 @@
                 cell = nil;
         }
     }
-    return (CustomTableViewCell *) cell;
+    return (CTCustomTableViewCell *) cell;
 }
 @end
