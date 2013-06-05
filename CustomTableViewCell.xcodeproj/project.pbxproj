@@ -11,7 +11,7 @@
 		023E9E3E175E3627003C386D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E9E3D175E3627003C386D /* Foundation.framework */; };
 		023E9E40175E3627003C386D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E9E3F175E3627003C386D /* CoreGraphics.framework */; };
 		545901894AE35A9DF00110FF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5459066DBD8D62D27ADC8BE5 /* README.md */; };
-		54590344A48BA9CA9050F13F /* CustomTableViewCell.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5459026F02BBA59374245F52 /* CustomTableViewCell.podspec */; };
+		54590344A48BA9CA9050F13F /* CTCustomTableViewCell.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5459026F02BBA59374245F52 /* CTCustomTableViewCell.podspec */; };
 		54590A2F4FFC6E38ECCB7B37 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 54590145647BB94B79CA1C0C /* LICENSE */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +23,7 @@
 		023E9E58175E3653003C386D /* CTCustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTCustomTableViewCell.h; sourceTree = "<group>"; };
 		023E9E59175E3653003C386D /* CTCustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTCustomTableViewCell.m; sourceTree = "<group>"; };
 		54590145647BB94B79CA1C0C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5459026F02BBA59374245F52 /* CustomTableViewCell.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = CustomTableViewCell.podspec; sourceTree = "<group>"; };
+		5459026F02BBA59374245F52 /* CTCustomTableViewCell.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = CTCustomTableViewCell.podspec; sourceTree = "<group>"; };
 		5459066DBD8D62D27ADC8BE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 				023E9E39175E3626003C386D /* Products */,
 				5459066DBD8D62D27ADC8BE5 /* README.md */,
 				54590145647BB94B79CA1C0C /* LICENSE */,
-				5459026F02BBA59374245F52 /* CustomTableViewCell.podspec */,
+				5459026F02BBA59374245F52 /* CTCustomTableViewCell.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,7 +134,7 @@
 			files = (
 				545901894AE35A9DF00110FF /* README.md in Resources */,
 				54590A2F4FFC6E38ECCB7B37 /* LICENSE in Resources */,
-				54590344A48BA9CA9050F13F /* CustomTableViewCell.podspec in Resources */,
+				54590344A48BA9CA9050F13F /* CTCustomTableViewCell.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

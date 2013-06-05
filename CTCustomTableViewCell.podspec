@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'CustomTableViewCell'
+  s.name         = 'CTCustomTableViewCell'
   s.version      = '1'
   s.license      = 'MIT'
   s.summary      = 'Simple superclass for custom tableview cells that works on convention and removes the need for a lot of code.'
